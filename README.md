@@ -1,13 +1,10 @@
 # Course-Select-Scraper
 
-### This requires Scrapy to be installed on your system.
-`pip install scrapy`
+### This requires Scrapy to be installed on your system: `pip install scrapy`
 
-### This requires Scrapy_Splash to be installed on your system
-`pip install scrapy-splash`
+### This requires Scrapy_Splash to be installed on your system: `pip install scrapy-splash`
 
-### This requires BeautifulSoup4 to be installed on your system
-`pip install beautifulsoup4`
+### This requires BeautifulSoup4 to be installed on your system: `pip install beautifulsoup4`
 
 ### This requires a Docker container of Splash to be installed and running on port 8050 to work properly.
 Once installed: `$ docker run -p 8050:8050 scrapinghub/splash`
