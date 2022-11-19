@@ -2,13 +2,13 @@
 
 ## Dependencies
 
-#### This requires Scrapy to be installed on your system: 
+#### This script requires Scrapy to be installed on your system: 
 `pip install scrapy`
 
-#### This requires Scrapy_Splash to be installed on your system: 
+#### This script requires Scrapy_Splash to be installed on your system: 
 `pip install scrapy-splash`
 
-#### This requires BeautifulSoup4 to be installed on your system: 
+#### This script requires BeautifulSoup4 to be installed on your system: 
 `pip install beautifulsoup4`
 
 #### This requires a Docker container of Splash to be installed and running on port 8050 to work properly.
