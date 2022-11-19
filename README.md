@@ -12,7 +12,7 @@
 `pip install beautifulsoup4`
 
 #### This requires a Docker container of Splash to be installed and running on port 8050 to work properly.
-Once installed: `$ docker run -p 8050:8050 scrapinghub/splash`
+Once installed: `docker run -p 8050:8050 scrapinghub/splash`
 
 ## Example Execution
 `./script.py https://colleague-ss.uoguelph.ca/Student/Courses/Search?keyword=cis*4820`
