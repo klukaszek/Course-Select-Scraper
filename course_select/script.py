@@ -22,7 +22,7 @@ def main():
     print("Running Seat Scraper...\n")
 
     #Pass url as first command line argument to script
-    f = open("url.txt", 'w+')
+    f = open("course.txt", 'w+')
     f.write(str(sys.argv[1]))
     f.close()
 
@@ -35,7 +35,7 @@ def main():
         os.system("scrapy crawl course 2>NUL")
         
         #wait 15 seconds
-        sleep(10)
+        sleep(15)
 
         #open and read file contents to get course seat information
         f = open(filename, 'r')

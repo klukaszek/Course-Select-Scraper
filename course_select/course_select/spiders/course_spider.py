@@ -3,8 +3,8 @@ import re
 from scrapy_splash import SplashRequest
 from bs4 import BeautifulSoup
 
-file = open("url.txt", 'r')
-url = file.read()
+file = open("course.txt", 'r')
+url = "https://colleague-ss.uoguelph.ca/Student/Courses/Search?keyword=" + file.read()
 file.close()
 
 class SplashScraper(scrapy.Spider):
