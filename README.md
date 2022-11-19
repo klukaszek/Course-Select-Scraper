@@ -1,6 +1,6 @@
 # Course-Select-Scraper
 
-##Dependencies
+## Dependencies
 
 #### This requires Scrapy to be installed on your system: 
 `pip install scrapy`
