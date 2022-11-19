@@ -6,10 +6,16 @@ from time import sleep
 
 def notify(text):
 
+    #split text into a list with / as the delimiter
     token_list = text.split(" / ")
+    #convert token_list content to integers
     seats = [int(token_list[0]), int(token_list[1]), int(token_list[2])]
 
     print("Seats Available: {}\nSeats Occupied: {}\nSeats Waitlisted: {}\n".format(seats[0], seats[1], seats[2]))
+
+    if(seats[0] > 0):
+        print("THERE IS A SEAT AVAILABLE\n")
+    
 
 
 def main():
