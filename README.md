@@ -19,7 +19,7 @@ Once installed: `docker run -p 8050:8050 scrapinghub/splash`
 
 The URL provided must point directly to the course you are looking for. In the example above, there is only one course returned by the search keyword on Webadvisor which is exactly what we are looking for when passing the URL to the script.
 
-# Notes
+## Notes
 At the moment, this gets the seat count by using mouse inputs but that won't work in every case so I have to look into interacting with Javascript without input using Splash LUA scripting and some Javascript.
 
 To run the crawler, go to the /course_select directory and run `./script.py {URL}` or `python script.py {URL}` to get the number of seats available for your course.
