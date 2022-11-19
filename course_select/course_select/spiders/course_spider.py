@@ -49,13 +49,3 @@ class SplashScraper(scrapy.Spider):
         f.write(str(text[0]))
         f.close()
 
-        notify(str(text[0]))
-
-def notify(text):
-
-    token_list = text.split(" / ")
-    seats = [int(token_list[0]), int(token_list[1]), int(token_list[2])]
-
-    print("Seats Available:", seats[0])
-    print("Seats Occupied:", seats[1])
-    print("Seats Waitlisted:", seats[2])
