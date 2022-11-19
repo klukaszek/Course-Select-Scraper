@@ -13,12 +13,13 @@ def notify(text):
 
     print("Seats Available: {}\nSeats Occupied: {}\nSeats Waitlisted: {}\n".format(seats[0], seats[1], seats[2]))
 
+    #if the course has an available seat, notify the user
     if(seats[0] > 0):
         print("THERE IS A SEAT AVAILABLE\n")
-    
-
 
 def main():
+
+    print("Running Seat Scraper...\n")
 
     #Pass url as first command line argument to script
     f = open("url.txt", 'w+')
