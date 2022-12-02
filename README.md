@@ -11,6 +11,12 @@
 #### This script requires BeautifulSoup4 to be installed on your system: 
 `pip install beautifulsoup4`
 
+### This script requires Sendgrid API to be installed on your system:
+`pip install sendgrid`
+
+### You will need to have a Sendgrid API Key set as an environment variable titled SENDGRID_API_KEY, you should probably put it in .bashrc if you are using a Unix based OS.
+`export SENDGRID_API_KEY=YOUR_PERSONAL_API_KEY` 
+
 #### This requires a Docker container of Splash to be installed and running on port 8050 to work properly.
 Once installed: `docker run -p 8050:8050 scrapinghub/splash`
 
