@@ -21,7 +21,7 @@
 Once installed: `docker run -p 8050:8050 scrapinghub/splash`
 
 ## Example Execution
-`./script.py cis4820`
+`./script.py cis4820 sampleemail@email.net`
 
 The course code provided should be in lowercase with no spaces.
 
