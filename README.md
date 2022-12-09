@@ -28,6 +28,6 @@ The course code provided should be in lowercase with no spaces.
 ## Notes
 At the moment, this gets the seat count by using mouse inputs but that won't work in every case so I have to look into interacting with Javascript without input using Splash LUA scripting and some Javascript.
 
-To run the crawler, go to the /course_select directory and run `./script.py {Course Code}` or `python script.py {Course Code}` to get the number of seats available for your course.
+To run the crawler, go to the /course_select directory and run `./script.py {Course Code} {Sendgrid Email}` or `python script.py {Course Code} {Sendgrid Email}` to get the number of seats available for your course.
 
-Script.py easily be repurposed to notify by text or email that a seat is available if I really wanted to.
+The {Sendgrid Email} provided will send an email to itself when a seat is available so you should make sure that the Sendgrid Email you have set up can receive mail.
